@@ -8,6 +8,12 @@
 # The Blox designer embeds this client-only route in an iframe; it is not
 # prerendered, so serve the app shell.
 [[redirects]]
+  from = "/api/*"
+  to = "https://dev-auctentic.bagel.to/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/_blox_preview"
   to = "/index.html"
   status = 200
