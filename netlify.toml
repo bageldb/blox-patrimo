@@ -1,5 +1,5 @@
 [build]
-  command = "bash scripts/debug-build.sh"
+  command = "bun run build"
   publish = "dist"
 
 [build.environment]
