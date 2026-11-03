@@ -1,7 +1,7 @@
 import { createRouter as _createRouter, createWebHistory, createMemoryHistory } from 'vue-router'
 import Layout from '@/components/Layout.vue'
-import HomePage from '@/components/blocks/HomePage.vue'
-import TopicPage from '@/components/blocks/TopicPage.vue'
+import HomePage from '@/components/pages/HomePage.vue'
+import TopicPage from '@/components/pages/TopicPage.vue'
 import GuidePage from '@/components/blocks/GuidePage.vue'
 
 export function createRouter(mode: 'web' | 'memory' = 'web', _initialUrl?: string) {

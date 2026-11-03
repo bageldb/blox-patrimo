@@ -12,8 +12,8 @@ defineBlock({
 	label: 'Guida',
 	icon: 'article',
 	category: 'content',
-	order: 30,
-	description: 'Articolo lungo: sintesi, aliquote, confronto e domande.',
+	order: 90,
+	description: 'Articolo lungo. Resta un solo blocco: intestazione, indice fisso e sezioni condividono la griglia.',
 	schema: {},
 })
 </script>
